@@ -3,6 +3,6 @@ Name=ZVV Zurich Transport
 Comment=Zürcher Verkehrsverbund ZVV for Ubuntu Touch.
 Type=Application
 Icon=zvv-zurich-transport.png
-Exec=webapp-container --store-session-cookies --webappUrlPatterns=http://www.zvv.ch/* http://www.zvv.ch/
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://www.zvv.ch/*,https?://online.fahrplan.zvv.ch/*,https?://online.fahrplaninfo.zvv.ch/*,https?://tickets.zvv.ch/* http://www.zvv.ch/
 Terminal=false
 X-Ubuntu-Touch=true
