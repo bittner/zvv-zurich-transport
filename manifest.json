@@ -1,0 +1,15 @@
+{
+    "name": "zvv-zurich-transport.peter-bittner",
+    "description": "Zürcher Verkehrsverbund ZVV for Ubuntu Touch",
+    "architecture": "all",
+    "title": "ZVV Zurich Transport",
+    "hooks": {
+        "zvv-zurich-transport": {
+            "apparmor": "zvv-zurich-transport.apparmor",
+            "desktop": "zvv-zurich-transport.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Peter Bittner <django@bittner.it>",
+    "framework": "ubuntu-sdk-15.04"
+}
